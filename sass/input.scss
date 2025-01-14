@@ -1,0 +1,106 @@
+@use 'reset';
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@mixin central-flex-row { 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+@mixin central-flex-column { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin footer { 
+    margin: 20px; 
+    font-size: 0.6em;
+}
+$rounded-corner: 12px;
+$article-padding: 50px;
+
+body { 
+    @include central-flex-column;
+    background-color:  hsl(0, 0%, 95%);
+    font-family: 'lexend deca', sans-serif;
+    height: 100svh;
+
+    section { 
+        @include central-flex-row;
+        margin: 200px;
+
+        article { 
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            height: auto;
+            padding: $article-padding;
+            max-width: 20em;
+
+        }
+
+        article.sedans { 
+            background-color: hsl(31, 77%, 52%);
+            border-top-left-radius: $rounded-corner;
+            border-bottom-left-radius: $rounded-corner;
+
+            button { 
+                color: hsl(31, 77%, 52%);
+            }
+        }
+
+        article.SUVs { 
+            background-color: hsl(184, 100%, 22%);
+
+            button { 
+                color: hsl(184, 100%, 22%);
+            }
+        }
+
+        article.luxury { 
+            background-color: hsl(179, 100%, 13%);
+            border-top-right-radius: $rounded-corner;
+            border-bottom-right-radius: $rounded-corner;
+
+            button { 
+                color: hsl(179, 100%, 13%);
+            }
+        }
+
+        h1 { 
+            color: hsl(0, 0%, 95%); 
+            font-weight: 700; 
+            font-family: 'big shoulders display', sans-serif; 
+            font-size: 2.2em;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        img { 
+            order: -1;
+        }
+
+        p { 
+            font-size: 0.9em;
+            color: hsla(0, 0%, 100%, 0.75);
+            line-height: 180%;
+            margin-right: 10px;
+        }
+
+        button { 
+            margin-top: 50px;
+            border-radius: 25px;
+            background-color: hsl(0, 0%, 95%);
+            font-size: 0.9em;
+            font-family: 'lexend deca', sans-serif;
+            padding: 15px 30px;
+            border: solid; 
+        }
+    }
+
+    footer { 
+        @include footer;
+    }
+}
+

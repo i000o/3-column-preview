@@ -16,6 +16,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Overview
 
+- Desktop-first workflow! I don't wanna do mobile-first it sucks
+
 ## Goal
 
 ## Outcome
@@ -29,7 +31,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 :gear: Semantic HTML5 markup  
 :gear: CSS Flex  
-:gear: Mobile-first workflow  
+:gear: Desktop-first workflow  
 :gear: Sass
 
 ## My process
@@ -42,8 +44,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Time taken
 
-:alarm_clock: Mobile: 3 hrs  
-:alarm_clock: Desktop: 2 hrs
+:alarm_clock: Mobile:  
+:alarm_clock: Desktop:
 
 ## Feedback
 
