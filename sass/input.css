@@ -119,6 +119,5 @@ body footer {
 @media screen and (max-width: 768px) {
   body section article {
     min-width: 20em;
-    align-items: center;
   }
 }/*# sourceMappingURL=input.css.map */

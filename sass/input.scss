@@ -34,7 +34,7 @@ body {
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
-            flex-shrink: 0; // this work so well here 
+            flex-shrink: 0; // this works so well here 
             height: auto;
             padding: $article-padding;
             max-width: 20em;
@@ -145,7 +145,6 @@ body {
         section { 
             article { 
                 min-width: 20em;
-                align-items: center;
             }
         }
     }
