@@ -36,7 +36,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## My process
 
-:alien:
+:alien: `<main>` vs `<body>`conflict
 :alien:
 :alien:
 :alien:
@@ -51,7 +51,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Lessons
 
-1.
+1. Difference between `hover` and `active` states.
 2.
 3.
 4.

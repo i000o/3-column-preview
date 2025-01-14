@@ -49,6 +49,11 @@ body {
             button { 
                 color: hsl(31, 77%, 52%);
             }
+
+            button:active { 
+                background-color: hsl(31, 77%, 52%);
+                color: hsl(0, 0%, 95%);
+            }
         }
 
         article.SUVs { 
@@ -57,7 +62,13 @@ body {
             button { 
                 color: hsl(184, 100%, 22%);
             }
-        }
+
+            button:active { 
+                background-color: hsl(184, 100%, 22%);
+                color: hsl(0, 0%, 95%);
+                }
+            }
+        
 
         article.luxury { 
             background-color: hsl(179, 100%, 13%);
@@ -66,6 +77,11 @@ body {
 
             button { 
                 color: hsl(179, 100%, 13%);
+            }
+
+            button:active { 
+                background-color: hsl(179, 100%, 13%);
+                color: hsl(0, 0%, 95%);
             }
         }
 
@@ -92,20 +108,22 @@ body {
         button { 
             margin-top: 50px;
             border-radius: 25px;
-            background-color: hsl(0, 0%, 95%);
+            // background-color: hsl(0, 0%, 95%);
             font-size: 0.9em;
             font-family: 'lexend deca', sans-serif;
             padding: 15px 30px;
             border: solid; 
         }
-    }
 
-    footer { 
-        @include footer;
+        button:active { 
+            cursor: pointer;
+        }
     }
 }
 
-// active states 
+footer { 
+    @include footer;
+}
 
 @media screen and (max-width: 1240px) { 
 
