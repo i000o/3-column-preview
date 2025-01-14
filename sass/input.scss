@@ -34,6 +34,7 @@ body {
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
+            flex-shrink: 0; // this work so well here 
             height: auto;
             padding: $article-padding;
             max-width: 20em;
@@ -104,3 +105,48 @@ body {
     }
 }
 
+// active states 
+
+@media screen and (max-width: 1240px) { 
+
+    body { 
+        height: auto;
+    }
+
+    section { 
+        @include central-flex-column;
+
+        article.sedans { 
+            // bottom radius remains - why? 
+            border-radius: $rounded-corner $rounded-corner 0 0;
+        }
+
+        article.luxury { 
+            border-bottom-left-radius: $rounded-corner;
+            // remove old radius here, too
+        }
+
+        article { 
+
+            button { 
+                margin-top: 10px;
+            }
+
+            p { 
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) { 
+
+    body { 
+        section { 
+            article { 
+                min-width: 20em;
+                align-items: center;
+            }
+        }
+    }
+}

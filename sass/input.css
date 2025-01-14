@@ -35,6 +35,7 @@ body section article {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  flex-shrink: 0;
   height: auto;
   padding: 50px;
   max-width: 20em;
@@ -90,4 +91,34 @@ body section button {
 body footer {
   margin: 20px;
   font-size: 0.6em;
+}
+
+@media screen and (max-width: 1240px) {
+  body {
+    height: auto;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section article.sedans {
+    border-radius: 12px 12px 0 0;
+  }
+  section article.luxury {
+    border-bottom-left-radius: 12px;
+  }
+  section article button {
+    margin-top: 10px;
+  }
+  section article p {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  body section article {
+    min-width: 20em;
+    align-items: center;
+  }
 }/*# sourceMappingURL=input.css.map */
