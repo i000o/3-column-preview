@@ -121,5 +121,18 @@ body footer {
     min-width: 20em;
   }
 }
+@media screen and (max-width: 425px) {
+  main {
+    width: 100svw;
+  }
+}
+@media screen and (max-width: 375px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 /*# sourceMappingURL=output.css.map */
