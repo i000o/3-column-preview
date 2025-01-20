@@ -23,8 +23,7 @@ My goal here is to reprioritise my Sass. After getting in some early practice af
 
 ## Outcome
 
-![Desktop](./images/3-column-desktop.png)  
-![Mobile](images/3-column-mobile.png)
+![Desktop](./images/3-column-desktop.png)
 
 :jigsaw: [Live Site URL](https://i000o.github.io/3-column-preview/)  
 :pencil2: [Solution URL](https://www.frontendmentor.io/solutions/responsive-3-column-layout-with-active-states-using-sass-KqAdmNxmgL)
@@ -51,7 +50,7 @@ My goal here is to reprioritise my Sass. After getting in some early practice af
 
 ## Feedback
 
-:pencil2: I received incredible feedback from a peer-learner on Frontend Mentor about my code in this project. While crediting the work I'd done, they'd also helped me uncover something I wasn't aware of that has served me very well since. I had neglected to make the most out of pseudoclasses. Instead, I tended to 'label' some elements with classes to target them in CSS. But this piece of feedback reminded me of `:first-child`, `:nth-child()`... This is of course, so much easier and makes far better use of my CSS than before, so I'm happy to know this now.
+:pencil2: I received incredible feedback from a peer-learner on Frontend Mentor about my code in this project. While crediting the work I'd done, they'd also helped me uncover something I wasn't aware of that has served me very well since. I had neglected to make the most out of pseudoclasses. Instead, I tended to label some elements with classes to target them in CSS. But this piece of feedback reminded me of `:first-child`, `:nth-child()`... This is of course, so much easier and makes far better use of my CSS than before, so I'm happy to know this now.
 
 :star: <q>_I think you did a great job with this challenge! I like that you used sass it_<q>  
 :star: <q>_Overall, nice job it looks pretty good!_<q>
@@ -71,5 +70,5 @@ My goal here is to reprioritise my Sass. After getting in some early practice af
 
 :grey_exclamation: Pseudo-classes `:first-child` and `:nth-child()`  
 :grey_exclamation: Using the `<main>` tag to landmark  
-:grey_exclamation: Use `flex-shrink` more!
-:grey_exclamation: Keep using Sass and all it has to offer - It makes life so much easier :pinkheart:
+:grey_exclamation: Use `flex-shrink` more!  
+:grey_exclamation: Keep using Sass and all it has to offer - It makes life so much easier :sparkling_heart:
